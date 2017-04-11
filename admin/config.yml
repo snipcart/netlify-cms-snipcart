@@ -1,0 +1,20 @@
+backend:
+  name: github
+  repo: snipcart/netlify-cms-snipcart
+  branch: master 
+
+media_folder: "img/uploads"
+
+collections: 
+  - name: "products" 
+    label: "Products"
+    folder: "_products"
+    slug: "{{sku}}"
+    create: true 
+    fields: 
+      - {label: "SKU", name: "sku", widget: "string" }
+      - {label: "Price", name: "price", widget: "number"}
+      - {label: "Image", name: "image", widget: "string"}
+      - {label: "Body", name: "body", widget: "string"}  
+      - {label: "Layout", name: "layout", widget: "hidden", default: "productdetails"}
+    

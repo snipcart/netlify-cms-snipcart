@@ -1,0 +1,19 @@
+{
+  "name": "netlify-cms-snipcart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "netlify-cms": "^0.3.17"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.0",
+    "file-loader": "^0.11.1",
+    "style-loader": "^0.16.1"
+  }
+}
