@@ -1,7 +1,7 @@
 module.exports = {
     entry: "./admin/index.js",
     output: {
-        path: __dirname,
+        path: `${__dirname}/admin`,
         filename: "bundle.js"
     },
     module: {
