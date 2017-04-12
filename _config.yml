@@ -14,13 +14,7 @@ collections:
     output: true
 
 exclude:
-  - Gemfile
-  - Gemfile.lock
   - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
   - admin/index.js
   - webpack.config.js
   - package.json
